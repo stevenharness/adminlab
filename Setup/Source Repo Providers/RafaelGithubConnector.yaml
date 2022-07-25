@@ -1,0 +1,8 @@
+harnessApiVersion: '1.0'
+type: GIT
+branch: main
+keyAuth: false
+password: safeharness:D59Av77RTd-DiFA6hC6nsw
+url: https://github.com/rafaelmart1ns/labtest
+urlType: REPO
+username: rafaelmart1ns

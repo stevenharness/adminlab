@@ -1,0 +1,8 @@
+harnessApiVersion: '1.0'
+type: GIT
+branch: main
+keyAuth: false
+password: safeharness:A8Cp1hWpTCKBvl9Hi6gJHA
+url: https://github.com/fmazlabs/adminlab
+urlType: REPO
+username: fmazlabs
