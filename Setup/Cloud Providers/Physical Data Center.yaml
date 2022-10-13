@@ -1,0 +1,35 @@
+harnessApiVersion: '1.0'
+type: PHYSICAL_DATA_CENTER
+usageRestrictions:
+  appEnvRestrictions:
+  - appFilter:
+      filterType: ALL
+    envFilter:
+      filterTypes:
+      - PROD
+  - appFilter:
+      filterType: ALL
+    envFilter:
+      filterTypes:
+      - NON_PROD
+  - appFilter:
+      entityNames:
+      - Sriram
+      filterType: SELECTED
+    envFilter:
+      filterTypes:
+      - PROD
+  - appFilter:
+      entityNames:
+      - MDMOpsDep
+      filterType: SELECTED
+    envFilter:
+      filterTypes:
+      - PROD
+  - appFilter:
+      entityNames:
+      - MDMOpsDep
+      filterType: SELECTED
+    envFilter:
+      filterTypes:
+      - NON_PROD
